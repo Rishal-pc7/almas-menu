@@ -1,0 +1,116 @@
+
+html,body{
+  height: 100%;
+  scroll-behavior: smooth;
+}
+.brand h5{
+   
+  font-family: "League Spartan", sans-serif;
+
+}
+.brand p{
+    font-family: "Manrope",sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.brand .menu{
+    letter-spacing: 10px;
+    color: #E09F3E;
+    
+}
+#body .category::-webkit-scrollbar{
+  display: none;
+}
+#body .category p{
+  font-family: "League Spartan",sans-serif;
+  font-weight: 600;
+}
+#body .category .active{
+  background: #FEE0C0;
+  color: #820000;
+  
+}
+#body .category .active p{
+  font-weight: 700;
+}
+#items h4{
+  font-family: "League Spartan",sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 3em;
+  letter-spacing: 10px;
+  color: #E09F3E;
+  text-align: center;
+
+}
+#items section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2em;
+  font-family: "Manrope",sans-serif;
+  color: #FFFF;
+  row-gap: 4rem;
+}
+#items section div{
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  font-size: 12px;
+  row-gap: 8px;
+}
+
+#items section div img{
+  object-fit: cover;
+  object-position: center;
+  border: solid 2px #ffff;
+  border-radius: .5rem;
+  width: 100%;
+  
+}
+#items section div h3{
+  color: #E09F3E;
+  font-weight: 700;
+  font-family: "Almarai",sans-serif;
+  
+}
+#items section .values{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+#items section .values h5{
+  font-weight: 800;
+  float: right;
+  flex-basis: 49%;
+  border-left: 5px solid #E09F3E;  
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 10px;
+}
+#items section .values h5 svg{
+  height: 20px;
+}
+#items section .values h6{
+  flex-basis: 49%;
+  float: left;
+}
+.fix{
+  position: fixed;
+  background: #100000;
+  top: 0;
+
+}
+@media screen and (min-width: 768px) {
+  #items section div{
+  flex-basis: 16.6666%;
+  font-size: 20px;
+}
+}
