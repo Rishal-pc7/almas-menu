@@ -60,7 +60,7 @@ html,body{
   align-items: center;
   gap: 20px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   row-gap: 8px;
 }
 
@@ -76,7 +76,7 @@ html,body{
   color: #E09F3E;
   font-weight: 700;
   font-family: "Almarai",sans-serif;
-  
+  font-size: 12px;
 }
 #items section .values{
   width: 100%;
@@ -115,5 +115,8 @@ html,body{
 }
 #items section .values h5 svg{
   height: 20px;
+}
+#items section div h3{
+  font-size: 20px;
 }
 }
