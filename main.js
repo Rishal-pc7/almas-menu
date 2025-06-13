@@ -38,7 +38,7 @@ const items=[
         name:"Chicken Noodles Soup",
         img:`${url}/chicken_noodle_soup.jpg`,
         kcal:"36 Calories",
-        prize:"14",
+        prize:"14.00",
         cat:"soups"
     },
     {
@@ -46,42 +46,42 @@ const items=[
         name:"Cream of Chicken",
         img:`${url}/cream_of_chicken.jpg`,
         kcal:"120 Calories",
-        prize:"12"
+        prize:"12.00"
     },
     {
         nameAr:"شوربة المأكولات البحرية",
         name:"Sea food Soup",
         img:`${url}/sea_food.jpg`,
         kcal:"156 Calories",
-        prize:"14"
+        prize:"14.00"
     },
     {
         nameAr:"حساء الروبيان الصافي",
         name:"Prawns Clear Soup",
         img:`${url}/prawns_clear_soup.jpg`,
         kcal:"100 Calories",
-        prize:"14"
+        prize:"14.00"
     },
     {
         nameAr:"شوربة دجاج حارة وحامضة",
         name:"Hot & sour Chicken",
         img:`${url}/Hot_sour.png`,
         kcal:"160 Calories",
-        prize:"12"
+        prize:"12.00"
     },
     {
         nameAr:"شوربة الخضار الحارة والحامضة",
         name:"Hot & Veg sour soup",
         img:`${url}/hot_sour_veg.jpg`,
         kcal:"160 Calories",
-        prize:"11"
+        prize:"11.00"
     },
     {
         nameAr:"دجاج 65",
         name:"Chicken 65",
         img:`${url}/chicken_65.jpg`,
         kcal:"230 Calories",
-        prize:"17",
+        prize:"17.00",
         cat:'starters'
     },
     {
@@ -89,91 +89,91 @@ const items=[
         name:"Chicken Fry Half",
         img:`${url}/chicken_fry.jpg`,
         kcal:"230 Calories",
-        prize:"17"
+        prize:"17.00"
     },
     {
         nameAr:"دراجون تشيكن فراي",
         name:"Dragon Chicken Fry",
         img:`${url}/dragon_chicken_fry.jpg`,
         kcal:"240 Calories",
-        prize:"19"
+        prize:"19.00"
     },
     {
         nameAr:"جوبي منشوريا",
         name:"Gobi Manchurian",
         img:`${url}/gobi_manchurian.jpg`,
         kcal:"175 Calories",
-        prize:"15"
+        prize:"15.00"
     },
     {
         nameAr:"جوبي 65",
         name:"Gobi 65",
         img:`${url}/gobi_65.jpg`,
         kcal:"270 Calories",
-        prize:"14"
+        prize:"14.00"
     },
     {
         nameAr:"أصابع السمك المجففة",
         name:"Fish Finger Dry",
         img:`${url}/fish_finger_dry.jpg`,
         kcal:"100 Calories",
-        prize:"18"
+        prize:"18.00"
     },
     {
         nameAr:"دجاج نوابي",
         name:"Chicken Nawabi",
         img:`${url}/chicken_nawabi.jpg`,
         kcal:"100 Calories",
-        prize:"18"
+        prize:"18.00"
     },
     {
         nameAr:"دجاج شيتيناد",
         name:"Chicken Chettinad",
         img:`${url}/chicken_chettinad.jpg`,
         kcal:"250 Calories",
-        prize:"17"
+        prize:"17.00"
     },
     {
         nameAr:"مصاصة دجاج",
         name:"Chicken Lollipop",
         img:`${url}/chicken_lollipop.jpg`,
         kcal:"226 Calories",
-        prize:"18"
+        prize:"18.00"
     },
     {
         nameAr:"دجاج مقلي جاف",
         name:"Chicken Dry Fry Fass",
         img:`${url}/chicken_dry_fry.jpg`,
         kcal:"377 Calories",
-        prize:"24"
+        prize:"24.00"
     },
     {
         nameAr:"دجاج مانشوريان",
         name:"Chicken Manchurian",
         img:`${url}/chicken_manchurian.jpg`,
         kcal:"230 Calories",
-        prize:"17"
+        prize:"17.00"
     },
     {
         nameAr:"دجاج مقلي كامل",
         name:"Kozhi Porichath Full",
         img:`${url}/Kozhi_porichathu.jpg`,
         kcal:"377 Calories",
-        prize:"40"
+        prize:"40.00"
     },
     {
         nameAr:"دجاج نافراتان",
         name:"Chicken Navratan",
         img:`${url}/chicken_navaratan.jpg`,
         kcal:"377 Calories",
-        prize:"18"
+        prize:"18.00"
     },
     {
         nameAr:"الفحام",
         name:"Al Faham",
         img:`${url}/al_faham.jpg`,
         kcal:"397 Calories",
-        prize:"17",
+        prize:"17.00",
         cat:"thandoori"
     },
     {
@@ -181,7 +181,7 @@ const items=[
         name:"Barbeque Kabab Half",
         img:`${url}/barbeque_kabab_half.jpg`,
         kcal:"400 Calories",
-        prize:"18",
+        prize:"18.00",
         
     },
     {
@@ -189,7 +189,7 @@ const items=[
         name:"Paneer tikka",
         img:`${url}/paneer_tikka.jpg`,
         kcal:"278 Calories",
-        prize:"19",
+        prize:"19.00",
         
     },
     {
@@ -197,7 +197,7 @@ const items=[
         name:"Kaada Fry",
         img:`${url}/kaada_fry.jpg`,
         kcal:"120 Calories",
-        prize:"18",
+        prize:"18.00",
         
     },
     {
@@ -205,7 +205,7 @@ const items=[
         name:"Afgani Kabab",
         img:`${url}/afgani_kabab.jpg`,
         kcal:"201 Calories",
-        prize:"19",
+        prize:"19.00",
         
     },
     {
@@ -213,7 +213,7 @@ const items=[
         name:"Chicken Tikka",
         img:`${url}/chicken_tikka.jpg`,
         kcal:"150 Calories",
-        prize:"19",
+        prize:"19.00",
         
     },
     {
@@ -221,7 +221,7 @@ const items=[
         name:"Mixed Grill Platter Full",
         img:`${url}/mixed_grill_platter_full.jpg`,
         kcal:"450 Calories",
-        prize:"35",
+        prize:"35.00",
         
     },
     {
@@ -229,7 +229,7 @@ const items=[
         name:"Peri Peri Al Fahm",
         img:`${url}/peri_peri_al_faham.jpg`,
         kcal:"287 Calories",
-        prize:"20",
+        prize:"20.00",
         
     },
     {
@@ -237,7 +237,7 @@ const items=[
         name:"Thandoori Fish",
         img:`${url}/thandoori_fish.jpg`,
         kcal:"198 Calories",
-        prize:"28",
+        prize:"28.00",
         
     },
     {
@@ -245,7 +245,7 @@ const items=[
         name:"Thandoori Chicken Half",
         img:`${url}/thandoori_chicken_half.jpg`,
         kcal:"390 Calories",
-        prize:"18",
+        prize:"18.00",
         
     },
     {
@@ -253,7 +253,7 @@ const items=[
         name:"Chicken Chilly Dry",
         img:`${url}/chicken_chilly_dry.jpg`,
         kcal:"277 Calories",
-        prize:"18",
+        prize:"18.00",
         cat:"chinese"
         
     },
@@ -262,7 +262,7 @@ const items=[
         name:"Chicken Chilly Gravy",
         img:`${url}/chicken_chilly_gravy.jpg`,
         kcal:"277 Calories",
-        prize:"18",
+        prize:"18.00",
         
     },
     {
@@ -270,7 +270,7 @@ const items=[
         name:"Garlic Chicken Dry",
         img:`${url}/garlic_chicken_dry.jpg`,
         kcal:"136 Calories",
-        prize:"17",
+        prize:"17.00",
         
     },
     {
@@ -278,14 +278,14 @@ const items=[
         name:"Chicken Manchurian",
         img:`${url}/chicken_manchurian.jpg`,
         kcal:"230 Calories",
-        prize:"17"
+        prize:"17.00"
     },
     {
         nameAr:"دجاج شيزوان",
         name:"Chicken Schezwan",
         img:`${url}/chicken_schenzwan.jpg`,
         kcal:"111 Calories",
-        prize:"20",
+        prize:"20.00",
         
     },
     {
@@ -293,7 +293,7 @@ const items=[
         name:"Fish Manchurian",
         img:`${url}/fish_manchurian.jpg`,
         kcal:"205 Calories",
-        prize:"20",
+        prize:"20.00",
         
     },
     {
@@ -301,7 +301,7 @@ const items=[
         name:"Butter Chicken Masala",
         img:`${url}/butter_chicken_masala.jpg`,
         kcal:"350 Calories",
-        prize:"18",
+        prize:"18.00",
         cat:"main dishes"
     },
     {
@@ -309,399 +309,399 @@ const items=[
         name:"Chicken Hyderabadi",
         img:`${url}/chicken_hyderabadi.jpg`,
         kcal:"216 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"دجاجة وحيدة",
         name:"Chicken Kadai",
         img:`${url}/chicken_kadai.jpg`,
         kcal:"243 Calories",
-        prize:"17",
+        prize:"17.00",
     },
     {
         nameAr:"دجاج نظامي",
         name:"Chicken Nizami",
         img:`${url}/chicken_nizami.jpg`,
         kcal:"251 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"دجاج كولابوري",
         name:"Chicken Kolapuri",
         img:`${url}/chicken_kolapuri.jpg`,
         kcal:"217 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"دجاج كورما",
         name:"Chicken Kuruma",
         img:`${url}/chicken_kuruma.jpg`,
         kcal:"240 Calories",
-        prize:"17",
+        prize:"17.00",
     },
     {
         nameAr:"دجاج بالزبدة ماسالا",
         name:"Chicken Masala",
         img:`${url}/chicken_masala.jpg`,
         kcal:"200 Calories",
-        prize:"16",
+        prize:"16.00",
     },
     {
         nameAr:"كورما جبل الدجاج",
         name:"Chicken Malai Kuruma",
         img:`${url}/chicken_malai_kuruma.jpg`,
         kcal:"392 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"دجاج بالفلفل ماسالا",
         name:"Chicken Pepper Masala",
         img:`${url}/chicken_pepper_masala.png`,
         kcal:"215 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"دجاج تيكا ماسالا",
         name:"Chicken Tikka Masala",
         img:`${url}/chicken_tikka_masala.jpg`,
         kcal:"189 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"دجاج تشيتينادو",
         name:"Chicken Chettinad",
         img:`${url}/chicken_chettinad.jpg`,
         kcal:"300 Calories",
-        prize:"17",
+        prize:"17.00",
     },
     {
         nameAr:"نافراتان دجاج كورما",
         name:"Navratan Chicken Kuruma",
         img:`${url}/navratan_chicken_kuruma.jpg`,
         kcal:"150 Calories",
-        prize:"20",
+        prize:"20.00",
     },
     {
         nameAr:"بانير تشيلي",
         name:"Paneer Chilli",
         img:`${url}/paneer_chilly.jpg`,
         kcal:"387 Calories",
-        prize:"18"
+        prize:"18.00"
     },
     {
         nameAr:"روبيان منشوريا",
         name:"Prawns Manchurian",
         img:`${url}/prawns_manchurian.jpg`,
         kcal:"320 Calories",
-        prize:"20",
+        prize:"20.00",
     },
     {
         nameAr:"ألو غوبي ماسالا",
         name:"Aloo Gobi Masala",
         img:`${url}/aloo_gobi_masala.jpg`,
         kcal:"108 Calories",
-        prize:"14",
+        prize:"14.00",
     },
     {
         nameAr:"بانير مانشوريان",
         name:"Paneer Manchurian",
         img:`${url}/paneer_manchurian.jpg`,
         kcal:"485 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"لحم ضأن حيدر آباد",
         name:"Mutton Hyderabadi",
         img:`${url}/mutton_hyderabadi.jpg`,
         kcal:"470 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"لحم ضأن حيدر آباد",
         name:"Mutton Kadai",
         img:`${url}/mutton_kadai.jpg`,
         kcal:"438 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"لحم الضأن كولابوري",
         name:"Mutton Kolhapuri",
         img:`${url}/mutton_kolapuri.jpg`,
         kcal:"270 Calories",
-        prize:"20",
+        prize:"20.00",
     },
     {
         nameAr:"لحم الضأن ماسالا",
         name:"Mutton Masala",
         img:`${url}/mutton_masala.jpg`,
         kcal:"441 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"نظامي لحم الضأن",
         name:"Mutton Nizami",
         img:`${url}/mutton_nizami.jpg`,
         kcal:"400 Calories",
-        prize:"20",
+        prize:"20.00",
     },
     {
         nameAr:"لحم الضأن روغان جوش",
         name:"Mutton Rogan Josh",
         img:`${url}/mutton_rogan_josh.jpg`,
         kcal:"239 Calories",
-        prize:"20",
+        prize:"20.00",
     },
     {
         nameAr:"ماسالا لحم الضأن التقليدي",
         name:"Mutton Naadan Masala",
         img:`${url}/mutton_naadan_masala.jpg`,
         kcal:"400 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"لحم الضأن كورما",
         name:"Mutton Kuruma",
         img:`${url}/mutton_kurma.jpg`,
         kcal:"260 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"فاروثاراتشاتو لحم الضأن",
         name:"Mutton Varutharachathu",
         img:`${url}/mutton_varutharachathu.jpg`,
         kcal:"350 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"لحم الضأن المشوي",
         name:"Mutton Roast",
         img:`${url}/mutton_roast.jpg`,
         kcal:"400 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"نصف لحم بقري بالفلفل الحار",
         name:"Beef Chilli Half",
         img:`${url}/beef_chilly_half.jpg`,
         kcal:"200 Calories",
-        prize:"17",
+        prize:"17.00",
     },
     {
         nameAr:"لحم بقري ماسالا",
         name:"Beef Masala",
         img:`${url}/beef_masala.jpg`,
         kcal:"372 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"كاري لحم البقر",
         name:"Beef Curry",
         img:`${url}/beef_curry.jpg`,
         kcal:"254 Calories",
-        prize:"11",
+        prize:"11.00",
     },
     {
         nameAr:"لحم بقري كاداي",
         name:"Beef Kadai",
         img:`${url}/beef_kadai.jpg`,
         kcal:"266 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"بيضة كيزهي بوروتا",
         name:"Kizhi Porotta Egg",
         img:`${url}/kizhi_porotta_egg.jpg`,
         kcal:"375 Calories",
-        prize:"23",
+        prize:"23.00",
     },
     {
         nameAr:"لحم كيزهي بوروتا",
         name:"Kizhi Porotta Beef",
         img:`${url}/kizhi_porotta_beef.jpg`,
         kcal:"400 Calories",
-        prize:"34",
+        prize:"34.00",
     },
     {
         nameAr:"لحم كوثو بوروتا",
         name:"Kothu Porotta(Beef)",
         img:`${url}/kothu_porotta_beef.jpg`,
         kcal:"350 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"دجاج كوثو بوروتا",
         name:"Kothu Porotta(Chicken)",
         img:`${url}/kothu_porotta_chicken.jpg`,
         kcal:"322 Calories",
-        prize:"14",
+        prize:"14.00",
     },
     {
         nameAr:"كاري الدجاج التقليدي",
         name:"Chicken Nadan Curry",
         img:`${url}/chicken_naadan_curry.jpg`,
         kcal:"319 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"دجاج فاروثاراتشاتو",
         name:"Chicken Varutharachathu",
         img:`${url}/chicken_varutharachathu.jpg`,
         kcal:"319 Calories",
-        prize:"17",
+        prize:"17.00",
     },
     {
         nameAr:"ماباس الدجاج",
         name:"Chicken Mappas",
         img:`${url}/chicken_mappas.jpg`,
         kcal:"250 Calories",
-        prize:"17",
+        prize:"17.00",
     },
     {
         nameAr:"دجاج تشابس",
         name:"Chicken Chaps",
         img:`${url}/chicken_chaps.jpg`,
         kcal:"350 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"دجاج كورما",
         name:"Chicken Kuruma",
         img:`${url}/chicken_kuruma.jpg`,
         kcal:"240 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"دجاج مقلي تقليدي (زيت جوز الهند)",
         name:"Chicken Naadan Fry,(Coconut Oil)",
         img:`${url}/chicken_fry.jpg`,
         kcal:"400 Calories",
-        prize:"24",
+        prize:"24.00",
     },
     {
         nameAr:"لحم بقري مقلي (كبير)",
         name:"Beef Fry(Large)",
         img:`${url}/beef_fry_large.jpg`,
         kcal:"483 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"لحم بقري مشوي (كبير)",
         name:"Beef Roast(Large)",
         img:`${url}/beef_roast_large.jpg`,
         kcal:"483 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"لحم البقر ماسالا التقليدي",
         name:"Beef Naadan Masala",
         img:`${url}/beef_naadan_masala.jpg`,
         kcal:"480 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"فاروثاراتشاتو لحم البقر",
         name:"Beef Varutharachathu",
         img:`${url}/beef_varutharachathu.jpg`,
         kcal:"480 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"كورما لحم البقر",
         name:"Beef Kuruma",
         img:`${url}/beef_kurma.jpg`,
         kcal:"420 Calories",
-        prize:"18",
+        prize:"18.00",
     },
     {
         nameAr:"لحم البقر تشابس",
         name:"Beef Chaps",
         img:`${url}/beef_chaps.jpg`,
         kcal:"300 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"سمك ماسالا",
         name:"Fish Masala",
         img:`${url}/fish_masala.jpg`,
         kcal:"56 Calories",
-        prize:"17",
+        prize:"17.00",
     },
     {
         nameAr:"سمك مشوي",
         name:"Fish Pollichathu",
         img:`${url}/fish_pollichath.jpg`,
         kcal:"500 Calories",
-        prize:"40",
+        prize:"40.00",
     },
     {
         nameAr:"سمكة مولي",
         name:"Fish Molly",
         img:`${url}/fish_molly.jpg`,
         kcal:"175 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"خرائط الأسماك",
         name:"Fish Mappas",
         img:`${url}/fish_mappas.jpg`,
         kcal:"300 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"كاري سمك ترافنكور",
         name:"Travancore Fish Curry",
         img:`${url}/travancore_fish_curry.jpg`,
         kcal:"150 Calories",
-        prize:"20",
+        prize:"20.00",
     },
     {
         nameAr:"سمك ماسالا (خاص)",
         name:"Fish Masala(Special)",
         img:`${url}/fish_masala_special.jpg`,
         kcal:"225 Calories",
-        prize:"19",
+        prize:"19.00",
     },
     {
         nameAr:"كاري السمك والمانجو",
         name:"Fish Mango Curry",
         img:`${url}/fish_mango_curry.jpg`,
         kcal:"180 Calories",
-        prize:"20",
+        prize:"20.00",
     },
     {
         nameAr:"سمكة فاتيتشاتو",
         name:"Fish Vattichathu",
         img:`${url}/fish_vattichath.jpg`,
         kcal:"256 Calories",
-        prize:"20",
+        prize:"20.00",
     },
     {
         nameAr:"الروبيان المشوي",
         name:"Prawns Roast",
         img:`${url}/prawns_roast.jpg`,
         kcal:"158 Calories",
-        prize:"20",
+        prize:"20.00",
     },
     {
         nameAr:"سمك مقلي (سمك ملكي)",
         name:"Fish Fry(King Fish)",
         img:`${url}/fish_fry_kig_fish.jpg`,
         kcal:"105 Calories",
-        prize:"16",
+        prize:"16.00",
     },
     {
         nameAr:"فيناد بال كونجو",
         name:"Venad Paal Konju",
         img:`${url}/veenad_pal_konj.jpg`,
         kcal:"313 Calories",
-        prize:"24",
+        prize:"24.00",
     },
     {
         nameAr:"أيالا مولاكيتاثو",
         name:"Ayala Mulakittathu",
         img:`${url}/ayala_mulakittathu.jpg`,
         kcal:"307 Calories",
-        prize:"14",
+        prize:"14.00",
     },
 ]
 

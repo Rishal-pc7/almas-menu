@@ -60,7 +60,7 @@ html,body{
   align-items: center;
   gap: 20px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   row-gap: 8px;
 }
 
@@ -112,5 +112,8 @@ html,body{
   #items section div{
   flex-basis: 16.6666%;
   font-size: 20px;
+}
+#items section .values h5 svg{
+  height: 20px;
 }
 }
