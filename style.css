@@ -78,6 +78,7 @@ html,body{
   font-family: "Almarai",sans-serif;
   font-size: 12px;
 }
+
 #items section .values{
   width: 100%;
   display: flex;
@@ -117,6 +118,6 @@ html,body{
   height: 20px;
 }
 #items section div h3{
-  font-size: 20px;
+  font-size: 16px;
 }
 }

@@ -368,13 +368,6 @@ const items=[
         prize:"18.00",
     },
     {
-        nameAr:"دجاج تشيتينادو",
-        name:"Chicken Chettinad",
-        img:`${url}/chicken_chettinad.jpg`,
-        kcal:"300 Calories",
-        prize:"17.00",
-    },
-    {
         nameAr:"نافراتان دجاج كورما",
         name:"Navratan Chicken Kuruma",
         img:`${url}/navratan_chicken_kuruma.jpg`,
@@ -571,13 +564,6 @@ const items=[
         prize:"18.00",
     },
     {
-        nameAr:"دجاج مقلي تقليدي (زيت جوز الهند)",
-        name:"Chicken Naadan Fry,(Coconut Oil)",
-        img:`${url}/chicken_fry.jpg`,
-        kcal:"400 Calories",
-        prize:"24.00",
-    },
-    {
         nameAr:"لحم بقري مقلي (كبير)",
         name:"Beef Fry(Large)",
         img:`${url}/beef_fry_large.jpg`,
@@ -703,6 +689,13 @@ const items=[
         kcal:"307 Calories",
         prize:"14.00",
     },
+    {
+        nameAr:"دجاج مقلي تقليدي (زيت جوز الهند)",
+        name:"Chicken Naadan Fry,(Coconut Oil)",
+        img:`${url}/chicken_fry.jpg`,
+        kcal:"400 Calories",
+        prize:"24.00",
+    },
 ]
 
 var sec
@@ -733,6 +726,11 @@ items.map((item)=>{
     let h3=document.createElement('h3')
     h3.innerHTML=item.nameAr
     let p=document.createElement('p')
+    if(item.name==="Ayala Mulakittathu" && window.innerHeight>700){
+        p.style.minHeight="44px"
+        p.style.marginBottom="8px"
+        
+    }
     p.innerHTML=item.name
     let valDiv=document.createElement('div')
     valDiv.classList.add('values')
