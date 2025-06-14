@@ -20,7 +20,7 @@ document.onscroll= (e)=>{
         let top=window.scrollY
         let height=sec.offsetHeight
         let offset=sec.offsetTop
-        if(top>= offset-150&& top < height + offset){
+        if(top>= offset-150 && top < height + offset){
     
             activeClass[0].classList.remove('active')
             let id=sec.id.toUpperCase()
@@ -297,12 +297,575 @@ const items=[
         
     },
     {
+        nameAr:"برياني الدجاج",
+        name:"Idiyappam",
+        img:`${url}/idiyappam.jpg`,
+        kcal:"77 Calories",
+        prize:"1.00",
+        cat:"breakfast"
+    },
+    {
+        nameAr:"أبام",
+        name:"Appam",
+        img:`${url}/appam.jpg`,
+        kcal:"116 Calories",
+        prize:"1.00",
+    },
+    {
+        nameAr:"بوتو",
+        name:"Puttu",
+        img:`${url}/puttu.jpg`,
+        kcal:"194 Calories",
+        prize:"3.00",
+    },
+    {
+        nameAr:"ماسالا أوتابام",
+        name:"Masala Uttappam",
+        img:`${url}/masala_othappam.jpg`,
+        kcal:"370 Calories",
+        prize:"8.00",
+    },
+    {
+        nameAr:"دوسا عادية",
+        name:"Plain Dosa",
+        img:`${url}/plain_dosa.jpg`,
+        kcal:"147 Calories",
+        prize:"5.00",
+        cat:"dosas"
+    },
+    {
+        nameAr:"ماسالا دوسا",
+        name:"Masala Dosa",
+        img:`${url}/masala_dosa.jpg`,
+        kcal:"217 Calories",
+        prize:"7.00",
+    },
+    {
+        nameAr:"دوسا البيض",
+        name:"Egg Dosa",
+        img:`${url}/egg_dosa.jpg`,
+        kcal:"282 Calories",
+        prize:"7.00",
+    },
+    {
+        nameAr:"دوسا البصل",
+        name:"Onion Dosa",
+        img:`${url}/onion_dosa.jpg`,
+        kcal:"156 Calories",
+        prize:"7.00",
+    },
+    {
+        nameAr:"تاتو دوسا",
+        name:"Thattu Dosa",
+        img:`${url}/thattu_dosa.jpg`,
+        kcal:"157 Calories",
+        prize:"5.00",
+    },
+    {
+        nameAr:"دوسا الفطر",
+        name:"Mushroom Dosa",
+        img:`${url}/mushroom_dosa.jpg`,
+        kcal:"178 Calories",
+        prize:"10.00",
+    },
+    {
+        nameAr:"دوسا جوبي تشيلي",
+        name:"Gobi Chilli Dosa",
+        img:`${url}/gobi_chilly_dosa.jpg`,
+        kcal:"294 Calories",
+        prize:"10.00",
+    },
+    {
+        nameAr:"باروتا",
+        name:"Porotta",
+        img:`${url}/porotta.jpg`,
+        kcal:"295 Calories",
+        prize:"1.00",
+        cat:"breads"
+    },
+    {
+        nameAr:"باروتا القمح",
+        name:"Wheat Porotta",
+        img:`${url}/porotta_wheat.jpg`,
+        kcal:"290 Calories",
+        prize:"1.00",
+    },
+    {
+        nameAr:"شباتي",
+        name:"Chappathi",
+        img:`${url}/chappathi.jpg`,
+        kcal:"85 Calories",
+        prize:"1.00",
+    },
+    {
+        nameAr:"نان الثوم",
+        name:"Garlic Nan",
+        img:`${url}/garlic_nan.jpg`,
+        kcal:"246 Calories",
+        prize:"3.00",
+    },
+    {
+        nameAr:"روتي",
+        name:"Rotti",
+        img:`${url}/rotti.jpg`,
+        kcal:"85 Calories",
+        prize:"1.00",
+    },
+    {
+        nameAr:"نان عادي",
+        name:"Plain Nan",
+        img:`${url}/plain_nan.jpg`,
+        kcal:"149 Calories",
+        prize:"1.00",
+    },
+    {
+        nameAr:"نان الزبدة",
+        name:"Butter Nan",
+        img:`${url}/butter_nan.jpg`,
+        kcal:"268 Calories",
+        prize:"3.00",
+    },
+    {
+        nameAr:"باتورا",
+        name:"Battura",
+        img:`${url}/battura.jpg`,
+        kcal:"177 Calories",
+        prize:"1.00",
+    },
+    {
+        nameAr:"باراتا البطاطس",
+        name:"Aloo Porotta",
+        img:`${url}/aloo_porotta.jpg`,
+        kcal:"203 Calories",
+        prize:"6.00",
+    },
+    {
+        nameAr:"نيباثال",
+        name:"Ney Pathal",
+        img:`${url}/ney_pathal.jpg`,
+        kcal:"113 Calories",
+        prize:"1.00",
+    },
+    {
+        nameAr:"بيضة بوروتا",
+        name:"Egg Porotta",
+        img:`${url}/egg_porotta.jpg`,
+        kcal:"230 Calories",
+        prize:"3.00",
+    },
+    {
+        nameAr:"أرز مقلي بالدجاج",
+        name:"Chicken Fried Rice",
+        img:`${url}/chicken_fried_rice.jpg`,
+        kcal:"343 Calories",
+        prize:"16.00",
+        cat:"rice"
+    },
+    {
+        nameAr:"أرز مقلي باللحم البقري",
+        name:"Beef Fried Rice",
+        img:`${url}/beef_fried_rice.jpg`,
+        kcal:"400 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"أرز مقلي مع لحم الضأن",
+        name:"Mutton Fried Rice",
+        img:`${url}/mutton_fried_rice.jpg`,
+        kcal:"420 Calories",
+        prize:"19.00",
+    },
+    {
+        nameAr:"أرز مقلي بالروبيان",
+        name:"Prawns Fried Rice",
+        img:`${url}/prawns_fried_rice.jpg`,
+        kcal:"400 Calories",
+        prize:"20.00",
+    },
+    {
+        nameAr:"أرز مقلي بالخضار",
+        name:"Veg Fried Rice",
+        img:`${url}/veg_fried_rice.jpg`,
+        kcal:"345 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"أرز مقلي مختلط",
+        name:"Mixed Fried Rice",
+        img:`${url}/mixed_fried_rice.jpg`,
+        kcal:"400 Calories",
+        prize:"20.00",
+    },
+    
+    {
+        nameAr:"أرز مقلي بالبيض",
+        name:"Egg Fried Rice",
+        img:`${url}/egg_fried_rice.jpg`,
+        kcal:"385 Calories",
+        prize:"15.00",
+    },
+    {
+        nameAr:"أرز الطماطم",
+        name:"Tomato Rice",
+        img:`${url}/tomato_rice.jpg`,
+        kcal:"276 Calories",
+        prize:"15.00",
+    },
+    {
+        nameAr:"بولاو كشميري",
+        name:"Kashmiri Pulao",
+        img:`${url}/kashmiri_pulao.jpg`,
+        kcal:"300 Calories",
+        prize:"17.00",
+    },
+    {
+        nameAr:"أرز جيرا",
+        name:"Jeera Rice",
+        img:`${url}/jeera_rice.jpg`,
+        kcal:"360 Calories",
+        prize:"16.00",
+    },
+    {
+        nameAr:"أرز بالليمون",
+        name:"Lemon Rice",
+        img:`${url}/lemon_rice.jpg`,
+        kcal:"250 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"الأرز الأبيض",
+        name:"White Rice",
+        img:`${url}/white_rice.jpg`,
+        kcal:"206 Calories",
+        prize:"12.00",
+    },
+    {
+        nameAr:"بانير بولاو",
+        name:"Paneer Pulao",
+        img:`${url}/paneer_pulao.jpg`,
+        kcal:"400 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"بولاو نباتي",
+        name:"Veg Pulao",
+        img:`${url}/veg_pulao.jpg`,
+        kcal:"381 Calories",
+        prize:"15.00",
+    },
+    {
+        nameAr:"بازلاء بولاو",
+        name:"Pea Pulao",
+        img:`${url}/pea_pulao.jpg`,
+        kcal:"250 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"أرز بالسمن",
+        name:"Ghee Rice",
+        img:`${url}/ghee_rice.jpg`,
+        kcal:"208 Calories",
+        prize:"10.00",
+    },
+    {
+        nameAr:"أرز شيزوان مقلي مع دجاج",
+        name:"Schezwan Fried Rice Chicken",
+        img:`${url}/schenzwan_fried_rice_chicken.jpg`,
+        kcal:"400 Calories",
+        prize:"18.00",
+    },
+    
+    
+    {
+        nameAr:"برياني الدجاج",
+        name:"Chicken Biriyani",
+        img:`${url}/chicken_biriyani.jpg`,
+        kcal:"420 Calories",
+        prize:"16.00",
+        cat:"biriyani"
+    },
+    {
+        nameAr:"برياني لحم الضأن",
+        name:"Mutton Biriyani",
+        img:`${url}/mutton_biriyani.jpg`,
+        kcal:"450 Calories",
+        prize:"19.00",
+    },
+    {
+        nameAr:"برياني لحم البقر",
+        name:"Beef Biriyani",
+        img:`${url}/beef_biriyani.jpg`,
+        kcal:"400 Calories",
+        prize:"19.00",
+    },
+    {
+        nameAr:"برياني الروبيان",
+        name:"Prawns Biriyani",
+        img:`${url}/prawns_biriyani.jpg`,
+        kcal:"400 Calories",
+        prize:"19.00",
+    },
+    {
+        nameAr:"برياني السمك",
+        name:"Fish Biriyani",
+        img:`${url}/fish_biriyani.jpg`,
+        kcal:"390 Calories",
+        prize:"19.00",
+    },
+    {
+        nameAr:"برياني البيض",
+        name:"Egg Biriyani",
+        img:`${url}/egg_biriyani.jpg`,
+        kcal:"310 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"برياني نباتي",
+        name:"Veg Biriyani",
+        img:`${url}/veg_biriyani.jpg`,
+        kcal:"303 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"أرز برياني",
+        name:"Biriyani Rice",
+        img:`${url}/biriyani_rice.jpg`,
+        kcal:"232 Calories",
+        prize:"10.00",
+    },
+    {
+        nameAr:"نودلز الدجاج",
+        name:"Chicken Noodles",
+        img:`${url}/chicken_noodle.jpg`,
+        kcal:"200 Calories",
+        prize:"16.00",
+        cat:"noodles"
+    },
+    {
+        nameAr:"نودلز البيض",
+        name:"Egg Noodles",
+        img:`${url}/egg_noodle.jpg`,
+        kcal:"200 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"نودلز مختلطة",
+        name:"Mixed Noodles",
+        img:`${url}/mixed_noodle.jpg`,
+        kcal:"280 Calories",
+        prize:"20.00",
+    },
+    {
+        nameAr:"نودلز نباتية",
+        name:"Veg Noodles",
+        img:`${url}/veg_noodle.jpg`,
+        kcal:"180 Calories",
+        prize:"16.00",
+    },
+    {
+        nameAr:"نودلز لحم الضأن",
+        name:"Mutton Noodles",
+        img:`${url}/mutton_noodle.jpg`,
+        kcal:"250 Calories",
+        prize:"19.00",
+    },
+    {
+        nameAr:"نودلز سيشوان بالدجاج",
+        name:"Szechuan Noodles chicken",
+        img:`${url}/schezwan_noodle_chicken.webp`,
+        kcal:"300 Calories",
+        prize:"20.00",
+    },
+    {
+        nameAr:"نودلز لحم الضأن",
+        name:"Szechuan Mixed Noodles",
+        img:`${url}/schezwan_noodle_mix.jpg`,
+        kcal:"320 Calories",
+        prize:"22.00",
+    },
+    {
+        nameAr:"نودلز الروبيان",
+        name:"Prawn Noodles",
+        img:`${url}/prawns_noodle.jpg`,
+        kcal:"234 Calories",
+        prize:"20.00",
+    },
+    {
+        nameAr:"بانير تشيلي",
+        name:"Paneer Chilli",
+        img:`${url}/paneer_chilly.jpg`,
+        kcal:"387 Calories",
+        prize:"18.00",
+        cat:"main dishes veg"
+    },
+    {
+        nameAr:"ألو غوبي ماسالا",
+        name:"Aloo Gobi Masala",
+        img:`${url}/aloo_gobi_masala.jpg`,
+        kcal:"108 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"بانير مانشوريان",
+        name:"Paneer Manchurian",
+        img:`${url}/paneer_manchurian.jpg`,
+        kcal:"485 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"طماطم مقلية",
+        name:"Tomato Fry",
+        img:`${url}/tomato_fry.jpg`,
+        kcal:"166 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"ساديا",
+        name:"Sadhya",
+        img:`${url}/sadhya.jpg`,
+        kcal:"1800 Calories",
+        prize:"20.00",
+    },
+    {
+        nameAr:"وجبات نباتية",
+        name:"Veg Meals",
+        img:`${url}/veg_meals.jpg`,
+        kcal:"500 Calories",
+        prize:"10.00",
+    },
+    {
+        nameAr:"ثوران نباتي",
+        name:"Veg Thoran",
+        img:`${url}/veg_thoran.jpg`,
+        kcal:"105 Calories",
+        prize:"10.00",
+    },
+    {
+        nameAr:"مالاي بانير كور",
+        name:"Malai Paneer Kuruma",
+        img:`${url}/malai_paneer_kurma.jpg`,
+        kcal:"485 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"دال غوشت",
+        name:"Dal Ghosh",
+        img:`${url}/dal_ghosh.jpg`,
+        kcal:"222 Calories",
+        prize:"19.00",
+    },
+    {
+        nameAr:"أم البطاطس",
+        name:"Aloo Mutter",
+        img:`${url}/aloo_mutter.jpg`,
+        kcal:"170 Calories",
+        prize:"15.00",
+    },
+    {
+        nameAr:"بطاطس وسبانخ",
+        name:"Aloo Palak",
+        img:`${url}/aloo_palak.jpg`,
+        kcal:"191 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"شانا ماسالا كبير",
+        name:"Chana Masala Large",
+        img:`${url}/chena_masala_large.jpg`,
+        kcal:"210 Calories",
+        prize:"13.00",
+    },
+    {
+        nameAr:"دال مقلي كبير",
+        name:"Dal Fry Large",
+        img:`${url}/dal_fry_large.jpg`,
+        kcal:"312 Calories",
+        prize:"12.00",
+    },
+    {
+        nameAr:"دال تادكا",
+        name:"Dal Tadka",
+        img:`${url}/dal_thadukka.jpg`,
+        kcal:"190 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"بازلاء خضراء ماسالا",
+        name:"Green Peas Masala",
+        img:`${url}/green_peas_masala.jpg`,
+        kcal:"222 Calories",
+        prize:"13.00",
+    },
+    {
+        nameAr:"ماسالا الفطر",
+        name:"Mushroom Masala",
+        img:`${url}/mushroom_masala.jpg`,
+        kcal:"170 Calories",
+        prize:"15.00",
+    },
+    {
+        nameAr:"بانير زبدة ماسالا",
+        name:"Paneer Butter Masala",
+        img:`${url}/paneer_butter_masala.jpg`,
+        kcal:"142 Calories",
+        prize:"15.00",
+    },
+    {
+        nameAr:"بانير بالاك",
+        name:"Paneer Palak",
+        img:`${url}/paneer_palak.jpg`,
+        kcal:"160 Calories",
+        prize:"15.00",
+    },
+    {
+        nameAr:"فيج حيدر آباد",
+        name:"Veg Hyderabadi",
+        img:`${url}/veg_hyderabadi.jpg`,
+        kcal:"400 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"فيج جالفريزي",
+        name:"Veg Jalfrezi",
+        img:`${url}/veg_jalfrezi.jpg`,
+        kcal:"170 Calories",
+        prize:"16.00",
+    },
+    {
+        nameAr:"كاداي نباتي",
+        name:"Veg Kadai",
+        img:`${url}/veg_kadai.jpg`,
+        kcal:"210 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"خضار كولابوري",
+        name:"Veg Kolapuri",
+        img:`${url}/veg_kolapuri.jpg`,
+        kcal:"210 Calories",
+        prize:"14.00",
+    },
+    {
+        nameAr:"خضراوات مشكلة ماسالا",
+        name:"Mixed Veg Masala",
+        img:`${url}/mixed_veg_masala.jpg`,
+        kcal:"170 Calories",
+        prize:"13.00",
+    },
+    {
+        nameAr:"كفتة مالاي",
+        name:"Malai Koftha",
+        img:`${url}/malai_koftha.jpg`,
+        kcal:"392 Calories",
+        prize:"20.00",
+    },
+    {
         nameAr:"دجاج بالزبدة ماسالا",
         name:"Butter Chicken Masala",
         img:`${url}/butter_chicken_masala.jpg`,
         kcal:"350 Calories",
         prize:"18.00",
-        cat:"main dishes"
+        cat:"chicken"
     },
     {
         nameAr:"دجاج حيدر آبادي",
@@ -361,11 +924,60 @@ const items=[
         prize:"18.00",
     },
     {
+        nameAr:"كاري الدجاج التقليدي",
+        name:"Chicken Nadan Curry",
+        img:`${url}/chicken_naadan_curry.jpg`,
+        kcal:"319 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"دجاج فاروثاراتشاتو",
+        name:"Chicken Varutharachathu",
+        img:`${url}/chicken_varutharachathu.jpg`,
+        kcal:"319 Calories",
+        prize:"17.00",
+    },
+    {
+        nameAr:"ماباس الدجاج",
+        name:"Chicken Mappas",
+        img:`${url}/chicken_mappas.jpg`,
+        kcal:"250 Calories",
+        prize:"17.00",
+    },
+    {
+        nameAr:"دجاج تشابس",
+        name:"Chicken Chaps",
+        img:`${url}/chicken_chaps.jpg`,
+        kcal:"350 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"دجاج كورما",
+        name:"Chicken Kuruma",
+        img:`${url}/chicken_kuruma.jpg`,
+        kcal:"240 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"دجاج مقلي تقليدي (زيت جوز الهند)",
+        name:"Chicken Naadan Fry,(Coconut Oil)",
+        img:`${url}/chicken_fry.jpg`,
+        kcal:"400 Calories",
+        prize:"24.00",
+    },
+    {
         nameAr:"دجاج تيكا ماسالا",
         name:"Chicken Tikka Masala",
         img:`${url}/chicken_tikka_masala.jpg`,
         kcal:"189 Calories",
         prize:"18.00",
+    },
+    {
+        nameAr:"كباب مالاي",
+        name:"Malai Kabab",
+        img:`${url}/malai_kabab.jpg`,
+        kcal:"321 Calories",
+        prize:"19.00",
     },
     {
         nameAr:"نافراتان دجاج كورما",
@@ -374,40 +986,14 @@ const items=[
         kcal:"150 Calories",
         prize:"20.00",
     },
-    {
-        nameAr:"بانير تشيلي",
-        name:"Paneer Chilli",
-        img:`${url}/paneer_chilly.jpg`,
-        kcal:"387 Calories",
-        prize:"18.00"
-    },
-    {
-        nameAr:"روبيان منشوريا",
-        name:"Prawns Manchurian",
-        img:`${url}/prawns_manchurian.jpg`,
-        kcal:"320 Calories",
-        prize:"20.00",
-    },
-    {
-        nameAr:"ألو غوبي ماسالا",
-        name:"Aloo Gobi Masala",
-        img:`${url}/aloo_gobi_masala.jpg`,
-        kcal:"108 Calories",
-        prize:"14.00",
-    },
-    {
-        nameAr:"بانير مانشوريان",
-        name:"Paneer Manchurian",
-        img:`${url}/paneer_manchurian.jpg`,
-        kcal:"485 Calories",
-        prize:"18.00",
-    },
+    
     {
         nameAr:"لحم ضأن حيدر آباد",
         name:"Mutton Hyderabadi",
         img:`${url}/mutton_hyderabadi.jpg`,
         kcal:"470 Calories",
         prize:"19.00",
+        cat:"Mutton"
     },
     {
         nameAr:"لحم ضأن حيدر آباد",
@@ -473,31 +1059,10 @@ const items=[
         prize:"19.00",
     },
     {
-        nameAr:"نصف لحم بقري بالفلفل الحار",
-        name:"Beef Chilli Half",
-        img:`${url}/beef_chilly_half.jpg`,
-        kcal:"200 Calories",
-        prize:"17.00",
-    },
-    {
-        nameAr:"لحم بقري ماسالا",
-        name:"Beef Masala",
-        img:`${url}/beef_masala.jpg`,
-        kcal:"372 Calories",
-        prize:"18.00",
-    },
-    {
-        nameAr:"كاري لحم البقر",
-        name:"Beef Curry",
-        img:`${url}/beef_curry.jpg`,
-        kcal:"254 Calories",
-        prize:"11.00",
-    },
-    {
-        nameAr:"لحم بقري كاداي",
-        name:"Beef Kadai",
-        img:`${url}/beef_kadai.jpg`,
-        kcal:"266 Calories",
+        nameAr:"حساء لحم الضأن",
+        name:"Mutton Stew",
+        img:`${url}/mutton_stew.jpg`,
+        kcal:"249 Calories",
         prize:"19.00",
     },
     {
@@ -528,47 +1093,14 @@ const items=[
         kcal:"322 Calories",
         prize:"14.00",
     },
-    {
-        nameAr:"كاري الدجاج التقليدي",
-        name:"Chicken Nadan Curry",
-        img:`${url}/chicken_naadan_curry.jpg`,
-        kcal:"319 Calories",
-        prize:"18.00",
-    },
-    {
-        nameAr:"دجاج فاروثاراتشاتو",
-        name:"Chicken Varutharachathu",
-        img:`${url}/chicken_varutharachathu.jpg`,
-        kcal:"319 Calories",
-        prize:"17.00",
-    },
-    {
-        nameAr:"ماباس الدجاج",
-        name:"Chicken Mappas",
-        img:`${url}/chicken_mappas.jpg`,
-        kcal:"250 Calories",
-        prize:"17.00",
-    },
-    {
-        nameAr:"دجاج تشابس",
-        name:"Chicken Chaps",
-        img:`${url}/chicken_chaps.jpg`,
-        kcal:"350 Calories",
-        prize:"18.00",
-    },
-    {
-        nameAr:"دجاج كورما",
-        name:"Chicken Kuruma",
-        img:`${url}/chicken_kuruma.jpg`,
-        kcal:"240 Calories",
-        prize:"18.00",
-    },
+    
     {
         nameAr:"لحم بقري مقلي (كبير)",
         name:"Beef Fry(Large)",
         img:`${url}/beef_fry_large.jpg`,
         kcal:"483 Calories",
         prize:"19.00",
+        cat:"beef"
     },
     {
         nameAr:"لحم بقري مشوي (كبير)",
@@ -606,11 +1138,40 @@ const items=[
         prize:"19.00",
     },
     {
+        nameAr:"نصف لحم بقري بالفلفل الحار",
+        name:"Beef Chilli Half",
+        img:`${url}/beef_chilly_half.jpg`,
+        kcal:"200 Calories",
+        prize:"17.00",
+    },
+    {
+        nameAr:"لحم بقري ماسالا",
+        name:"Beef Masala",
+        img:`${url}/beef_masala.jpg`,
+        kcal:"372 Calories",
+        prize:"18.00",
+    },
+    {
+        nameAr:"كاري لحم البقر",
+        name:"Beef Curry",
+        img:`${url}/beef_curry.jpg`,
+        kcal:"254 Calories",
+        prize:"11.00",
+    },
+    {
+        nameAr:"لحم بقري كاداي",
+        name:"Beef Kadai",
+        img:`${url}/beef_kadai.jpg`,
+        kcal:"266 Calories",
+        prize:"19.00",
+    },
+    {
         nameAr:"سمك ماسالا",
         name:"Fish Masala",
         img:`${url}/fish_masala.jpg`,
         kcal:"56 Calories",
         prize:"17.00",
+        cat:"fish"
     },
     {
         nameAr:"سمك مشوي",
@@ -689,13 +1250,18 @@ const items=[
         kcal:"307 Calories",
         prize:"14.00",
     },
-    {
-        nameAr:"دجاج مقلي تقليدي (زيت جوز الهند)",
-        name:"Chicken Naadan Fry,(Coconut Oil)",
-        img:`${url}/chicken_fry.jpg`,
-        kcal:"400 Calories",
-        prize:"24.00",
+     {
+        nameAr:"روبيان منشوريا",
+        name:"Prawns Manchurian",
+        img:`${url}/prawns_manchurian.jpg`,
+        kcal:"320 Calories",
+        prize:"20.00",
+        
     },
+    
+    
+
+    
 ]
 
 var sec
@@ -726,12 +1292,9 @@ items.map((item)=>{
     let h3=document.createElement('h3')
     h3.innerHTML=item.nameAr
     let p=document.createElement('p')
-    if(item.name==="Ayala Mulakittathu" && window.innerHeight>700){
-        p.style.minHeight="44px"
-        p.style.marginBottom="8px"
-        
-    }
     p.innerHTML=item.name
+    let spacer=document.createElement('div')
+    spacer.classList.add('flex-grow')
     let valDiv=document.createElement('div')
     valDiv.classList.add('values')
     let h6=document.createElement('h6')
@@ -743,6 +1306,7 @@ items.map((item)=>{
     div.append(img)
     div.append(h3)
     div.append(p)
+    div.append(spacer)
     div.append(valDiv)
     sec.append(div)
     parent.append(sec)
